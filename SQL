@@ -8,13 +8,13 @@ SELECT room_id, CEIL(price) AS avg_price
 FROM reservations
 GROUP BY room_id;
 
-#78
-SELECT * 
-FROM users
-WHERE email LIKE '%hotmail.com';
-
 #73
 SELECT room_id, COUNT (room_id) AS count
 FROM reservations
 GROUP BY room_id
 HAVING (count % 2) = 1;
+
+#78
+SELECT * 
+FROM users
+WHERE email LIKE '%hotmail.com';
