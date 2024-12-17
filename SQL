@@ -1,3 +1,15 @@
+Сложность: легко
+
+#74
+SELECT id,
+CASE
+WHEN has_internet=1 THEN 'YES'
+WHEN has_internet=0 THEN 'NO'
+END AS has_internet
+FROM rooms;
+
+Сложность: средняя
+
 #59
 SELECT * 
 FROM users
