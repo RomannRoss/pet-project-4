@@ -29,4 +29,4 @@ HAVING (count % 2) = 1;
 #78
 SELECT * 
 FROM users
-WHERE email LIKE '%hotmail.com';
+WHERE email LIKE '%@hotmail.com';
